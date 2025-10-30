@@ -2,7 +2,7 @@
 const express = require("express");
 const EditorRequest = require("../model/EditorRequest");
 const Editor = require("../model/Editor");
-const sendMail = require("../utils/sendMail");
+const sendMail = require("../Utils/sendMail");
 
 const router = express.Router();
 
